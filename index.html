@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buscador de Personajes de Rick and Morty</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="text-center container">
+            <div class="row py-lg-3">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-bold text-white">Buscador de Personajes de Rick and Morty</h1>
+                    <input type="search" class="form-control" name="buscar" id="inputBuscar" placeholder="Ingresa el nombre del personaje">
+                    <button class="btn btn-primary my-2" id="btnBuscar">Buscar Personajes</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="contenedor" class="row">
+                <!-- Aquí se mostrarán los personajes encontrados -->
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-muted py-5 fw-bold text-white">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Volver arriba</a>
+            </p>
+            <p class="mb-1">Este sitio consume datos de <a href="https://rickandmortyapi.com/" target="_blank">
+                    Rick and Morty API</a></p>
+          </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

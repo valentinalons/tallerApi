@@ -1,0 +1,10 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+  body {
+    background-image: url('fondonegrorojo.webp');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen de fondo en su posición, incluso cuando se desplaza la página */
+}
